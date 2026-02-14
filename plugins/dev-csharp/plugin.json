@@ -1,0 +1,12 @@
+{
+  "name": "dev-csharp",
+  "description": "It sets up an environment that is useful for C# development.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Gukhyeon Ryu",
+    "email": "rgh4806@gmail.com",
+    "url": "https://github.com/rgh4806"
+  },
+  "homepage": "https://github.com/gmdsoft/claude.market/blob/main/plugins/dev-csharp/README.md",
+  "repository": "https://github.com/gmdsoft/claude.market/blob/main/plugins/dev-csharp"
+}

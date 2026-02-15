@@ -34,6 +34,20 @@
       "category": "development"
     },
     {
+      "name": "gmd-instruction",
+      "description": "It adds instructions to be used commonly within GMDSOFT.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Gukhyeon Ryu",
+        "email": "rgh4806@gmail.com",
+        "url": "https://github.com/rgh4806"
+      },
+      "homepage": "https://github.com/gmdsoft/claude.market/blob/main/plugins/gmd-instruction/README.md",
+      "repository": "https://github.com/gmdsoft/claude.market/blob/main/plugins/gmd-instruction",
+      "source": "./plugins/gmd-instruction",
+      "category": "development"
+    },
+    {
       "name": "notify-await",
       "description": "It shows a toast notification when waiting for the user's response. Windows only.",
       "version": "1.0.0",

@@ -13,6 +13,9 @@
 [**Dev-Csharp**](plugins/dev-csharp/README.md)  
 C# 개발 환경에 유용한 환경을 구축합니다.
 
+[**Gmd-Instruction**](plugins/gmd-instruction/README.md)  
+GMDSOFT에서 공통으로 사용할 지침을 추가합니다.
+
 ### Productivity
 [**Notify-Await**](plugins/notify-await/README.md)  
 사용자의 응답을 대기할 때 사용자에게 알리도록 합니다. Windows에서만 작동합니다.

@@ -6,20 +6,6 @@
   },
   "plugins": [
     {
-      "name": "notification",
-      "description": "It shows a toast notification when waiting for the user's response or when a task has been completed. Windows only.",
-      "version": "1.0.0",
-      "author": {
-        "name": "Gukhyeon Ryu",
-        "email": "rgh4806@gmail.com",
-        "url": "https://github.com/rgh4806"
-      },
-      "homepage": "https://github.com/gmdsoft/claude.market/blob/main/plugins/notification/README.md",
-      "repository": "https://github.com/gmdsoft/claude.market/blob/main/plugins/notification",
-      "source": "./plugins/notification",
-      "category": "productivity"
-    },
-    {
       "name": "dev-common",
       "description": "It sets up an environment that is useful for common development.",
       "version": "1.0.0",
@@ -48,6 +34,20 @@
       "category": "development"
     },
     {
+      "name": "notification",
+      "description": "It shows a toast notification when waiting for the user's response or when a task has been completed. Windows only.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Gukhyeon Ryu",
+        "email": "rgh4806@gmail.com",
+        "url": "https://github.com/rgh4806"
+      },
+      "homepage": "https://github.com/gmdsoft/claude.market/blob/main/plugins/notification/README.md",
+      "repository": "https://github.com/gmdsoft/claude.market/blob/main/plugins/notification",
+      "source": "./plugins/notification",
+      "category": "productivity"
+    },
+    {
       "name": "smart-git",
       "description": "It enables you to use Git more smartly. All operations will be performed within the current branch.",
       "version": "1.0.0",
@@ -59,6 +59,20 @@
       "homepage": "https://github.com/gmdsoft/claude.market/blob/main/plugins/smart-git/README.md",
       "repository": "https://github.com/gmdsoft/claude.market/blob/main/plugins/smart-git",
       "source": "./plugins/smart-git",
+      "category": "productivity"
+    },
+    {
+      "name": "atlassian",
+      "description": "Set up the environment for using Atlassian.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Gukhyeon Ryu",
+        "email": "rgh4806@gmail.com",
+        "url": "https://github.com/rgh4806"
+      },
+      "homepage": "https://github.com/gmdsoft/claude.market/blob/main/plugins/atlassian/README.md",
+      "repository": "https://github.com/gmdsoft/claude.market/blob/main/plugins/atlassian",
+      "source": "./plugins/atlassian",
       "category": "productivity"
     }
   ]

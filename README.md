@@ -26,8 +26,11 @@ GMDSOFT에서 공통으로 사용할 지침을 추가합니다.
 [**Smart-Git**](plugins/smart-git/README.md)  
 Git을 더 똑똑하게 사용할 수 있도록 지침을 추가하고, 편의 기능을 제공합니다.
 
-[**No-Nul**](plugins/no-nul/README.md)
+[**No-Nul**](plugins/no-nul/README.md)  
 Windows 환경에서 `nul` 파일을 만들지 않도록 합니다.
 
 [**Atlassian**](plugins/atlassian/README.md)  
 Atlassian을 사용하기 위한 환경을 구축합니다.
+
+[**Korean**](plugins/korean/README.md)  
+사용자가 한국인인 것을 알리고 한국어로 답하도록 합니다.

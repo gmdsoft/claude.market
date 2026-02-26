@@ -50,7 +50,7 @@
     {
       "name": "notify-await",
       "description": "It shows a toast notification when waiting for the user's response. Windows only.",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "author": {
         "name": "Gukhyeon Ryu",
         "email": "rgh4806@gmail.com",
@@ -64,7 +64,7 @@
     {
       "name": "notify-done",
       "description": "It shows a toast notification when a task has been completed. Windows only.",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "author": {
         "name": "Gukhyeon Ryu",
         "email": "rgh4806@gmail.com",

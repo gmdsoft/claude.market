@@ -9,12 +9,15 @@ if (-not $message) { $message = $DefaultMessage }
 $null = [Windows.UI.Notifications.ToastNotificationManager, Windows.UI.Notifications, ContentType = WindowsRuntime]
 $null = [Windows.Data.Xml.Dom.XmlDocument, Windows.Data.Xml.Dom.XmlDocument, ContentType = WindowsRuntime]
 
+$scriptDir = Split-Path -Parent $MyInvocation.MyCommand.Path
+$iconPath = (Resolve-Path (Join-Path $scriptDir "..\assets\icon.png") -ErrorAction SilentlyContinue).Path
 $toastXml = @"
 <toast duration="short">
   <visual>
     <binding template="ToastGeneric">
-      <text>Claude Code</text>
+      <text>Claude</text>
       <text>$message</text>
+      <image placement=`"appLogoOverride`" src=`"file:///$($iconPath -replace '\\','/')`"/>
     </binding>
   </visual>
   <audio src="ms-winsoundevent:Notification.Default"/>

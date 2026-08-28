@@ -1,0 +1,14 @@
+# Hook scripts run under bash, and the context files they read are emitted as a
+# JSON string. A CR that survives a Windows checkout ends up inside that string
+# as a bare control character, which is not valid JSON. Normalise on the way in
+# and check out LF everywhere so the hook sees the same bytes on every machine.
+* text=auto eol=lf
+
+*.sh   text eol=lf
+*.md   text eol=lf
+*.json text eol=lf
+
+# PowerShell is happy with LF, but keep the intent explicit alongside the rest.
+*.ps1  text eol=lf
+
+*.png  binary

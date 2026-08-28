@@ -22,7 +22,7 @@
     {
       "name": "dev-csharp",
       "description": "It sets up an environment that is useful for C# development.",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "author": {
         "name": "Gukhyeon Ryu",
         "email": "rgh4806@gmail.com",
@@ -36,7 +36,7 @@
     {
       "name": "gmd-instruction",
       "description": "It adds instructions to be used commonly within GMDSOFT.",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "author": {
         "name": "Gukhyeon Ryu",
         "email": "rgh4806@gmail.com",
@@ -78,7 +78,7 @@
     {
       "name": "smart-git",
       "description": "It enables you to use Git more smartly. All operations will be performed within the current branch.",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "author": {
         "name": "Gukhyeon Ryu",
         "email": "rgh4806@gmail.com",
@@ -92,7 +92,7 @@
     {
       "name": "atlassian",
       "description": "Set up the environment for using Atlassian.",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "author": {
         "name": "Gukhyeon Ryu",
         "email": "rgh4806@gmail.com",
@@ -106,7 +106,7 @@
     {
       "name": "no-nul",
       "description": "It will no longer create a nul file.",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "author": {
         "name": "Gukhyeon Ryu",
         "email": "rgh4806@gmail.com",
@@ -120,7 +120,7 @@
     {
       "name": "korean",
       "description": "It indicates that the user is Korean. The answer will be provided in Korean.",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "author": {
         "name": "Gukhyeon Ryu",
         "email": "rgh4806@gmail.com",
